@@ -1,0 +1,18 @@
+//agar apne md: ke baad jo bhi likha hai vo md aur uske higher resolution ke liye applicable hai. Jo bhi bina kisi prefix ke code likha rehata hai vo mobile screen ke resolution ke liye hota hai aur us se chote ke liye!
+   //grid grid-cols-no.inwhichyouwanttodivide
+    // <div className="grid grid-cols-5">
+    // <div className="bg-red-500">hi</div>
+    // <div className="bg-green-500">hi</div>
+    // <div className="bg-blue-500">hi</div>
+    // </div>
+    //columns of unequal widths
+    // <div className="grid grid-cols-10">
+    // <div className="bg-red-500 col-span-5">hi</div>
+    // <div className="bg-green-500 col-span-3">hi</div>
+    // <div className="bg-blue-500 col-span-2">hi</div>
+    // </div>
+    //Responsiveness
+    //breakpoints are resolution at which webpage orientation changes
+    //sm breakpoint-really small reseolution less than 640px
+    //
+   text-center inline-flex items-center- use them for aligning the elements inside a div 

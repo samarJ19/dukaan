@@ -1,0 +1,53 @@
+<svg fill="#000000" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M228,196h-4V40a12,12,0,0,0-12-12H156a12,12,0,0,0-12,12V76H100A12,12,0,0,0,88,88v36H44a12,12,0,0,0-12,12v60H28a12,12,0,0,0,0,24H228a12,12,0,0,0,0-24ZM112,100h32v96H112ZM56,148H88v48H56Zm112,48V52h32V196Z"></path> </g></svg>
+
+
+
+
+
+
+
+
+<div className="m-2 p-2 grid grid-cols-5 shadow">{/*main table 5 cols*/}
+        
+        <div >
+            <p>ORDER ID</p>
+            {data.ORDERID.map((y)=> (
+                <div className="text-blue-700">
+                {y}
+                </div>
+            ))}
+        </div>
+        <div>
+            <p>STATUS</p>
+            {data.STATUS.map((y)=> (
+                <>
+                {condition(y)}
+                </>
+            ))}
+        </div>
+        <div>
+            <p>TRANSACTION ID</p>
+            {data.TRANSACTIONID.map((y)=> (
+                <div>
+                {y}
+                </div>
+            ))}
+        </div>
+        <div>
+            <p>REFUND DATE</p>
+            {data.REFUNDDATE.map((y)=> (
+                <div>
+                {y}
+                </div>
+            ))}
+        </div>
+        <div>
+        <p>ORDER AMOUNT</p>
+        {data.ORDERAMOUNT.map((y)=> (
+            <div>
+            {y}
+            </div>
+        ))}
+        </div>
+        
+        </div>
