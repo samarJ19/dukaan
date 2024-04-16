@@ -4,7 +4,7 @@ export const Topbar=({
     text2
 })=>{
     return <div>
-        <div className="shadow flex grid grid-cols-3 ">{/*final*/}  {/*how can i change the width of each div in grid cols--an answer to this may be-grid grid-cols-[20%_80%] not a good approach*/}
+        <div className="shadow flex grid grid-cols-3 ">{/*final*/}  {/*how can i change the width of each div in grid cols--an answer to this may be-grid grid-cols-[20%_80%] not a good approach --next time use cols-span-quantityofdivspaceyouwant and it should be a div inside a div which has creted a grid layout so if the parent grid is giving 3 columns in that parent grid you can have only two div one with cols-span-2 and other with cols-span-1 so the first div got more width*/}
         <div className="flex m-4">
         <div className="font-semibold text-lg mr-4">{/* 1*/}
             {text1}
@@ -26,7 +26,7 @@ export const Topbar=({
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
         </svg>
         </div>
-        <input type="search" id="default-search" class="block w-full p-4 ps-10 text-base  text-gray-700 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search features,tutorials,etc." required />
+        <input type="search" id="default-search" class="block w-full p-4 ps-10 text-base  text-gray-700 border border-gray-300 rounded-lg bg-gray-50 focus:ring-gray-400 focus:border-gray-400 dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-400 dark:focus:border-gray-400" placeholder="Search features,tutorials,etc." required />
         </div>
         </form>       
         </div>

@@ -24,3 +24,9 @@
       </div>
     //
    text-center inline-flex items-center- use them for aligning the elements inside a div 
+   /*how can i change the width of each div in grid cols
+   --an answer to this may be-grid grid-cols-[20%_80%] not a good approach --next time 
+   use cols-span-quantityofdivspaceyouwant and it should be a div inside a div which has
+    creted a grid layout so if the parent grid is giving 3 columns in that parent grid 
+    you can have only two div one with cols-span-2 and other with cols-span-1 so the 
+    first div got more width
