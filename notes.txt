@@ -14,5 +14,13 @@
     //Responsiveness
     //breakpoints are resolution at which webpage orientation changes
     //sm breakpoint-really small reseolution less than 640px
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="bg-gray-200 p-4">Item 1</div>
+      <div class="bg-gray-200 p-4">Item 2</div>
+      <div class="bg-gray-200 p-4">Item 3</div>
+      <div class="bg-gray-200 p-4">Item 4</div>
+      <div class="bg-gray-200 p-4">Item 5</div>
+      <div class="bg-gray-200 p-4">Item 6</div>
+      </div>
     //
    text-center inline-flex items-center- use them for aligning the elements inside a div 
